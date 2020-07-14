@@ -4,4 +4,4 @@ let soma = 0;
 for (i = 0; i < numbers.length; i += 1){
   soma += numbers[i];
 }
-console.log (soma);
+console.log ("A soma do numero do array é: " + soma);

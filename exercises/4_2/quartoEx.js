@@ -6,4 +6,11 @@ for (i = 0; i < numbers.length; i += 1){
   soma += numbers[i];
 }
 media = soma / numbers.length
+
 console.log ("A média dos numero do array é: " + media);
+
+if(media > 20){
+  console.log("valor maior que 20")
+}else{
+  console.log("valor menos ou igual a 20")
+}
