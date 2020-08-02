@@ -58,11 +58,33 @@
     changeParagraph();
 
     const block = document.getElementsByClassName('main-content')[0];
+    const centerBlock = document.getElementsByClassName('center-content')[0];
+    const title = document.getElementsByTagName('h1')[0];
+    const textP = document.getElementsByTagName('p');
     
     function changeColorBlock(color) {
+        centerBlock.style.backgroundColor = 'white';
         block.style.backgroundColor = color;
     }
     changeColorBlock('green');
+
+    function corrigirText() {
+        title.innerText = 'Corrigindo este texto: Java Script!';
+    }
+    corrigirText();
+
+    function topUperCase(array){
+      for (let i = 0; i < array.lenght; i += 1){
+        const paragrafo = array[i];
+        for (let c = 0; c < paragrafo.lenght; c += 1){
+          paragrafo.push(paragrafo[c].topUperCase());
+          
+        }
+        
+      }
+    }
+    topUperCase(textP);
+
     </script>
   </body>
 </html>
