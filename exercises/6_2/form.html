@@ -4,16 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="bulma.min.css">
 </head>
 <body>
     <fieldset>
-        <input type="text" name="name-Text" id="" maxlength="40" required><br>
-        <input type="email" name="email-Text" id="" maxlength="50" required><br>
-        <input type="number" name="cPF" id="" maxlength="11" required><br>
-        <input type="text" name="endereco" id="" maxlength="200" required><br>
-        <input type="text" name="cidade" id="" maxlength="28" required><br>
-        <select name="estado" id="estados" required>
-            
+            <label for="nome-Text">Nome:
+                <input type="text" name="name-Text" id="" maxlength="40" required><br>
+            </label>
+            <label for="email-Text">Email:
+                <input type="email" name="email-Text" id="" maxlength="50" required><br>
+            </label>
+            <label for="cPF">Cpf:
+                <input type="number" name="cPF" id="" maxlength="11" required><br>
+            </label>
+            <label for="endereco">Endereço:
+                <input type="text" name="endereco" id="" maxlength="200" required><br>
+            </label>
+            <label for="cidade">Cidade:
+                <input type="text" name="cidade" id="" maxlength="28" required><br>
+            </label>
+            <label for="estado">Estado:
+                <select name="estado" id="estados" required>
+            </label>      
         </select><br>
         <input type="radio" name="complemento" id="casa" required>
         <label for="casa">Casa</label>
