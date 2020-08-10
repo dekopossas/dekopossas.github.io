@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="bulma.min.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
 <body>
     <fieldset>
@@ -33,11 +34,32 @@
         <label for="apartamkento">Apartamkento</label>
     </fieldset>
     <fieldset>
-        <textarea name="resumo-Curriculo" id="" cols="30" rows="10" maxlength="1000" requered></textarea><br>
-        <input type="text" name="Cargo-Text" id="" maxlength="40" required><br>
-        <input type="text" name="Descricao-do-cargo" id="" maxlength="500" required><br>
-        <input type="date" name="" id="Data de início">
+        <label for="resumo-Curriculo">Resumo do Curriculo:
+            <textarea name="resumo-Curriculo" id="" cols="30" rows="10" maxlength="1000" requered></textarea><br>
+        </label>
+        <label for="Cargo-Text">Cargo Ocupado:
+            <input type="text" name="Cargo-Text" id="" maxlength="40" required><br>
+        </label>
+        <label for="Descricao-do-cargo">Descricao Do Cargo:
+            <input type="text" name="Descricao-do-cargo" id="" maxlength="500" required><br>
+        </label>
+        <label for="datepicker">Data:
+            <input type="text" class="datepicker" name="datepicker" id="datepicker">
+        </label>
+
     </fieldset>
 <button type="submit" id="seed">Enviar Formulario</button> <button id="Clean">LimparFormulario</button>
+
+ <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('select');
+            var instances = M.FormSelect.init(elems, options);
+        });
+        let calendario = document.querySelectorAll('.datepicker');
+        M.Datepicker.init(calendario,{});
+    </script>
+
 </body>
 </html>
