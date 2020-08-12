@@ -1,9 +1,15 @@
-// aqui eu declarei minha função em formato arrow.
 const fatorial = (n) => {
-    // aqui eu vou fazer uma estrutura de repetição que vai passar pelos numeros de N ate 0.
-    for (let c = n; c > 0; c -= 1){
-        console.log (c);
+    if (n === 0) {
+        return `A fatoração do numero zero é ${1}`;
+    } else if (n < 0) {
+        return `Não tem como fatorar números negativos.`
+    } else {
+        let resp = 1;
+        for (let c = 1; c <= n; c += 1){
+            resp *= c;
+        }
+    return `o fatorial do numero ${n} é ${resp}`;
     }
 }
-// vou chamar a minha função espero receber uma impreção de 6 numero.
-fatorial(6)
+console.log(fatorial(5))
+// expectativa 24
