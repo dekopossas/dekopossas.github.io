@@ -1,6 +1,8 @@
-let button = document.getElementsByTagName('button');
+let button = document.getElementById('btn');
 let cont = document.getElementsByTagName('p');
+let clicks = 0;
 
-button = document.addEventListener('click', function() {
-    cont =
+button.addEventListener('click', function() {
+    clicks += 1;
+    cont[0].innerText = clicks;
 })
