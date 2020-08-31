@@ -5,5 +5,7 @@ const promise = new Promise((resolve, reject) => {
     if (number > 10 || number <= 5) {
       return reject(console.log(`Que fracasso =( Nosso número foi ${number}`));
     }
-    resolve(console.log(`Que sucesso =) nosso número foi ${number}`));
-  });
+    resolve(number);
+  })
+  .then(number => `Que sucesso =) nosso número foi ${number}`)
+  .then(msg => console.log(msg));
