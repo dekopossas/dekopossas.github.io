@@ -15,6 +15,7 @@ function sum(...numbers) {
     return c;
 }
 
+console.log(sum())
 
 assert.equal(sum(), 0)
 assert.equal(sum(1), 1)
