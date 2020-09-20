@@ -1,4 +1,6 @@
 import React from 'react';
+import Cidade from './Cidade.js'
+import Name from './Name.js'
 
 class Form extends React.Component {
   constructor() {
@@ -26,30 +28,15 @@ class Form extends React.Component {
   render() {
     return (
       <form className="form">
-        <label for="cidade">
-          Cidade:
-          <select 
-            name="cidade" 
-            className="cidade"
-            value={this.state.cidade}
-            onChange={this.handleChange}
-          >
-            <option value="value0"> </option>
-            <option value="value1">bh</option>
-            <option value="value2">rj</option>
-            <option value="value3">sp</option>
-          </select>
-        </label>{' '}
+        <Cidade
+          value={this.state.cidade}
+          handleChange={this.handleChange}
+        />
         <br />
-        <label for="name">
-          Nome:
-          <input 
-            type="text"
-            name="name" 
-            value={this.state.name}
-            onChange={this.handleChange} 
-          />
-        </label>
+        <Name
+          value={this.state.name}
+          handleChange={this.handleChange}
+        />
         <br />
         <label for="idade">
           Idade:
