@@ -11,7 +11,7 @@ class Form extends React.Component {
       name: '',
       idade: '',
       text: '',
-      check: false,
+      confirmado: false,
     };
   }
 
@@ -74,11 +74,17 @@ class Form extends React.Component {
         <input
           type="checkbox"
           name="confirmado"
-          value={this.state.check}
+          value={this.state.confirmado}
           onChange={this.handleChange}
         />
         </label>
+        <br />
+        <label>arquive:
+        <input type="file" />
+        </label>
+        
       </form>
+      
     );
   }
 }
