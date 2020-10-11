@@ -1,3 +1,3 @@
 const randomNumber = () => Math.round(Math.random()*100)
 
-console.log(randomNumber())
+const isDivisible = (n) => (randomNumber() % n) === 0
