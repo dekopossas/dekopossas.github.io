@@ -6,3 +6,5 @@ test('testando se randomNumber foi chamado em isDivisible'), () => {
   isDivisible(5);
   expect(randomNumber).toHaveBeenCalled();
 }
+
+// que merda cara
