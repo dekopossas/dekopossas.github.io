@@ -1,10 +1,15 @@
-const randomNumber = () => Math.round(Math.random()*100)
-
-const isDivisible = (n) => (randomNumber() % n) === 0
-
-test('testando se randomNumber foi chamado em isDivisible'), () => {
-  isDivisible(5);
-  expect(randomNumber).toHaveBeenCalled();
+function randomNumber() {
+  return Math.round(Math.random()*100)
 }
 
-// que merda cara
+function isDivisible(n) { 
+  return (randomNumber() % n) === 0
+}
+test('testando se randomNumber foi chamado em isDivisible', () => {
+
+  randomNumber = jest.fn();
+
+  isDivisible(2);
+
+  expect(randomNumber).toHaveBeenCalledTimes(1);
+});
