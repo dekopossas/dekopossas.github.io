@@ -34,5 +34,6 @@ describe('testando mock da função soma', () => {
   })
   it('testando se foi somanda a implementation correto', () => {
     expect(math.somar(4, 3)).toBe(7)
+    expect(math.somar).toHaveBeenCalledWith(4, 3)
   })
 })
