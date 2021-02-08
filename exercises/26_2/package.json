@@ -1,0 +1,11 @@
+{
+  "name": "26_2",
+  "version": "1.0.0",
+  "description": "testandoNode",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
