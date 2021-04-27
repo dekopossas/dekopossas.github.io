@@ -11,13 +11,14 @@ module.exports = {
       },
       nome: {
         allowNull: false,
-        type: Sequelize.INTEGER
+        type: Sequelize.STRING,
       },
       description: {
         allowNull: false,
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING,
       },
-    })
+    });
+    return StoresTable;
   },
 
   down: async (queryInterface, Sequelize) => {
