@@ -3,7 +3,7 @@ const Store = (sequelize, DataTypes) => {
     name: DataTypes.STRING,
     description: DataTypes.STRING,
   }, {
-    timestamp: false,
+    timestamps: false,
   })
   return Store;
 };
