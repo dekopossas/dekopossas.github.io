@@ -1,5 +1,5 @@
 const Store = (sequelize, DataTypes) => {
-  const Store = Sequelize.define("Store", {
+  const Store = sequelize.define("Store", {
     name: DataTypes.STRING,
     description: DataTypes.STRING,
   }, {
