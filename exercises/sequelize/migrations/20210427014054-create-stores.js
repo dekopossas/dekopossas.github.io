@@ -3,13 +3,13 @@
 module.exports = {
   up: async (queryInterface, Sequelize) => {
     const StoresTable = queryInterface.createTable("Stores", {
-      id:{
+      id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER,
       },
-      nome: {
+      name: {
         allowNull: false,
         type: Sequelize.STRING,
       },
