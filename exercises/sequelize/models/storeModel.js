@@ -7,3 +7,5 @@ const Store = (sequelize, DataTypes) => {
   })
   return Store;
 };
+
+module.exports = Store;
