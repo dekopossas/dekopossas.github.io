@@ -2,20 +2,19 @@
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    /**
-     * Add altering commands here.
-     *
-     * Example:
-     * await queryInterface.createTable('users', { id: Sequelize.INTEGER });
-     */
+    const EmployeesTable = queryInterface.createTable('Employees', {
+      employee_id: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        type: Sequelize.INTEGER,
+      },
+      first_name: { allowNull: false, type: Sequelize.STRING },
+      last_name: { allowNull: false, type: Sequelize.STRING },
+      age: { allowNull: false, type: Sequelize.INTEGER },
+    });
+    return EmployeesTable;
   },
 
-  down: async (queryInterface, Sequelize) => {
-    /**
-     * Add reverting commands here.
-     *
-     * Example:
-     * await queryInterface.dropTable('users');
-     */
-  }
+  down: async (queryInterface) => queryInterface.dropTable('Employees'),
 };
