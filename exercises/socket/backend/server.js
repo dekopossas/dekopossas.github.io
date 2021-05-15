@@ -11,6 +11,10 @@ io.on('connection', (socket) => {
   socket.on('message', (message) => {
     console.log(message);
     io.emit('newMessage', message);
+
+    socket.emit('xyz', 'só para o remetente');
+
+    socket.broadcast.emit('brodicastMensage', 'para todos de menos o mensageiro');
   })
 })
 
