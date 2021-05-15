@@ -10,6 +10,12 @@
 <body>
   <h1>Socket.io</h1>
 
+  <h3>Mensagens</h3>
+
+  <ul id="messages">
+
+  </ul>
+
   <input type="text" id="message"/>
   <button id="sendMessage">Enviar</button>
 
@@ -19,6 +25,12 @@
     document.querySelector('#sendMessage').addEventListener('click', (e) => {
       const message = document.querySelector('#message').value;
       socket.emit('message', message);
+    });
+
+    socket.on('newMessage', (message) => {
+      const messageLi = document.createElement('li');
+      messageLi.innerText = message;
+      document.querySelector('#messages').appendChild(messageLi);
     });
   </script>
 </body>
