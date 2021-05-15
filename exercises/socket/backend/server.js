@@ -7,6 +7,10 @@ const io = require('socket.io')(httpServer);
 
 io.on('connection', (socket) => {
   console.log(`Usuario novo conectado ${socket.id}`);
+
+  socket.on('message', (message) => {
+    console.log(message);
+  })
 })
 
 app.set('view engine', 'ejs');
