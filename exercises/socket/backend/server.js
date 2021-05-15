@@ -6,7 +6,7 @@ const httpServer = require('http').createServer(app);
 const io = require('socket.io')(httpServer);
 
 io.on('connection', (socket) => {
-  console.log('Usuario novo conectado');
+  console.log(`Usuario novo conectado ${socket.id}`);
 })
 
 app.set('view engine', 'ejs');
