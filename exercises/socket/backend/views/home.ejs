@@ -11,12 +11,15 @@
   <h1>Socket.io</h1>
 
   <input type="text" id="message"/>
-  <button id="senndMessage">Enviar</button>
+  <button id="sendMessage">Enviar</button>
 
   <script>
     const socket = io();
 
-    socket.emit('hello', 'Cheguei');
+    document.querySelector('#sendMessage').addEventListener('click', (e) => {
+      const message = document.querySelector('#message').value;
+      socket.emit('message', message);
+    });
   </script>
 </body>
 </html>
