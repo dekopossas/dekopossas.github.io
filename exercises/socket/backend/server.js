@@ -21,6 +21,11 @@ io.on('connection', (socket) => {
     socket.emit('xyz', 'só para o remetente');
 
     socket.broadcast.emit('brodicastMensage', 'para todos de menos o mensageiro');
+  });
+
+  socket.on('disconnect', () => {
+    console.log(`Usúario ${socket.id} desconectou`);
+    // const user = users.find(u => u.socketId === socket.id);
   })
 });
 
