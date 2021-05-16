@@ -16,6 +16,12 @@
 
   </ul>
 
+  <h3>Users</h3>
+
+  <ul id="users">
+
+  </ul>
+
   <input type="text" id="message"/>
   <button id="sendMessage">Enviar</button>
 
@@ -31,6 +37,22 @@
       const messageLi = document.createElement('li');
       messageLi.innerText = message;
       document.querySelector('#messages').appendChild(messageLi);
+    });
+
+    socket.on('xyz', (data) => {
+      console.log(data);
+    });
+
+    socket.on('broadcastMessage', (data) => {
+      console.log(data);
+    });
+
+    socket.on('updateUsers', (user) => {
+      user.forEach((user) => {
+        const userLi = document.createElement('li');
+        userLi.innerText = user.socketId;
+        document.querySelector('#users').appendChild(userLi);
+      });
     });
   </script>
 </body>
