@@ -29,6 +29,5 @@ The Imitation Game
 
 Aqui a gente coloca alguma coisa de softskills.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### O que melhorar aqui.
+Quero coloca essa lista de forma dinamica, então por home vai ser só uma pseudo programação.
