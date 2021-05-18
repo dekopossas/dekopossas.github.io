@@ -2,7 +2,7 @@
 
 Software Developer - Web Developer
 
-<img src="https://ca.slack-edge.com/TMDDFEPFU-U015H1EQD1V-014dc14e5f30-512" alt="perfil Linkedin foto"
+<img src="https://ca.slack-edge.com/TMDDFEPFU-U015H1EQD1V-014dc14e5f30-512" alt="perfil Linkedin foto" />
 
 ### Markdown
 
