@@ -1,10 +1,10 @@
 ## André de Castro Possas
 
-<center>Software Developer - Web Developer</center>
+<center>My Animes, Series e Filmes List</center>
 
 <img src="https://ca.slack-edge.com/TMDDFEPFU-U015H1EQD1V-014dc14e5f30-512" alt="perfil Linkedin foto" />
 
-### Skills
+### Animes
 
 ```
 ##Frontend
