@@ -1,6 +1,6 @@
 ## André de Castro Possas
 
-Software Developer - Web Developer
+<center>Software Developer - Web Developer</center>
 
 <img src="https://ca.slack-edge.com/TMDDFEPFU-U015H1EQD1V-014dc14e5f30-512" alt="perfil Linkedin foto" />
 
