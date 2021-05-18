@@ -7,21 +7,21 @@
 ### Series
 
 ```
-Sherlock Homes
+Sherlock Homes     nota pessoal: 9.8/10   nota popular: x/10
 
 ```
 
 ### Animes
 
 ```
-Fullmetal alchemist
+Fullmetal alchemist     nota pessoal: 9.7/10   nota popular: x/10
 
 ```
 
 ### Filmes
 
 ```
-The Imitation Game
+The Imitation Game     nota pessoal: 9.5/10   nota popular: x/10
 
 ```
 
