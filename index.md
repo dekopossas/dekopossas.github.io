@@ -4,26 +4,26 @@
 
 <img src="https://ca.slack-edge.com/TMDDFEPFU-U015H1EQD1V-014dc14e5f30-512" alt="perfil Linkedin foto" />
 
-### Markdown
+### Skills
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+```
+##Frontend
 
-```markdown
-Syntax highlighted code block
+React
+Redux
+ContextAPI
+TypeScript
+Next.js
+SASS
 
-# Header 1
-## Header 2
-### Header 3
+##Backend
 
-- Bulleted
-- List
+MongoDB
+Mysql
+Node.js
+Sequelize
+Python
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
