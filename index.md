@@ -37,3 +37,6 @@ Aqui a gente coloca alguma coisa de softskills.
 
 ### O que melhorar aqui.
 Quero coloca essa lista de forma dinamica, então por home vai ser só uma pseudo programação.
+
+
+forms de alteração de filme
