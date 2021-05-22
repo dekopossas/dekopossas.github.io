@@ -7,21 +7,27 @@
 ### Series
 
 ```
-Sherlock Homes | nota pessoal: 9.8/10 | popular: x/10
+Sherlock Homes | nota pessoal: 9/10 | popular: x/10
+
+```
+### Livros
+
+```
+O Homem que calculava | nota pessoal: 9/10 | popular: x/10
 
 ```
 
 ### Animes
 
 ```
-Fullmetal alchemist | nota pessoal: 9.7/10 | popular: x/10
+Fullmetal alchemist | nota pessoal: 9/10 | popular: x/10
 
 ```
 
 ### Filmes
 
 ```
-The Imitation Game | nota pessoal: 9.5/10 | popular: x/10
+The Imitation Game | nota pessoal: 9/10 | popular: x/10
 
 ```
 
