@@ -1,19 +1,19 @@
 ## André de Castro Possas
 
-<center>My Animes, Series e Filmes List</center>
+<center>Meus Livros, Animes, Series e Filmes List</center>
 
 <img src="https://ca.slack-edge.com/TMDDFEPFU-U015H1EQD1V-014dc14e5f30-512" alt="perfil Linkedin foto" />
 
-### Series
-
-```
-Sherlock Homes | nota pessoal: 9/10 | popular: x/10
-
-```
 ### Livros
 
 ```
 O Homem que calculava | nota pessoal: 9/10 | popular: x/10
+
+```
+### Series
+
+```
+Sherlock Homes | nota pessoal: 9/10 | popular: x/10
 
 ```
 
