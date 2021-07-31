@@ -31,9 +31,11 @@ The Imitation Game | nota pessoal: 9/10 | popular: x/10
 
 ```
 
-### Na real podria fazer mesmo mais um link de curiosidades.
+### Mudanças 
 
-Aqui a gente coloca alguma coisa de softskills.
+Mudei para um to do list fixo.
+- Primeiro vou tirar o tema e estilizar na raça
+- segundo vou criar o um select com todos to dos obrigatorios diarios.
 
 ### O que melhorar aqui.
 Quero coloca essa lista de forma dinamica, então por home vai ser só uma pseudo programação.
