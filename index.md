@@ -42,3 +42,7 @@ Quero coloca essa lista de forma dinamica, então por home vai ser só uma pseud
 
 
 forms de alteração de filme
+
+### Select
+<radio></radio>
+<select></select>
